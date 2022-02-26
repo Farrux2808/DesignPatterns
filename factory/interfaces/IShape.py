@@ -1,12 +1,12 @@
 from abc import abstractmethod
 
 
-class Ishape():
+class IShape():
 
     @abstractmethod
-    def calculateArea():
+    def calculateArea(self):
         pass
 
     @abstractmethod
-    def drawArea():
+    def drawArea(self):
         pass
